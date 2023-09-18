@@ -3,8 +3,9 @@ html {
 }
 body {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
   width: 794px;
-  height: 1122px;
+  /* height: 1122px; */
   margin: 10px auto;
   /* border: 1px solid rgba(0, 0, 0, 0.35); */
   padding: 30px 40px;
@@ -34,7 +35,7 @@ body {
   object-fit: cover;
 }
 #name {
-  font-weight: 550;
+  font-weight: 800;
 }
 .education {
   margin-top: 15px;
@@ -73,4 +74,33 @@ ul.circle li {
 }
 .left {
   text-align: left !important;
+}
+.graduation {
+  display: inline-block;
+  margin-top: 10px;
+  width: 323px;
+  height: 400px;
+}
+.borders {
+  border: 0.5px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); /* Shadow */
+}
+.certificate {
+  display: flex;
+}
+.guidance {
+  width: 420px;
+  height: 260px;
+  margin-top: 10px;
+}
+.cup {
+  width: 150px;
+  height: 260px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.award {
+  display: flex;
+  gap: 30px;
 }
