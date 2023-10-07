@@ -90,17 +90,23 @@ ul.circle li {
   display: flex;
 }
 .guidance {
-  width: 420px;
-  height: 260px;
+  width: 323px;
+  height: 200px;
+  margin-top: 10px;
+}
+.leadership {
+  width: 160px;
+  height: 200px;
   margin-top: 10px;
 }
 .cup {
-  width: 150px;
-  height: 260px;
+  width: 100px;
+  height: 200px;
   margin-top: 10px;
+  /* margin-left: 3px; */
   vertical-align: middle;
 }
 .award {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
